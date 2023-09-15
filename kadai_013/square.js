@@ -1,5 +1,5 @@
-const calcutationTotal = (amount) => {
-    console.log(amount * amount);
+const calculateTotal = (amount) => {
+    return amount*amount;
 }
 
-calcutationTotal(20);
+console.log(calculateTotal(5));
